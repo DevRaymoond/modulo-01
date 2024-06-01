@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-image: url(../documents/Pet_Paradise_Cat_Zoom_Image.jpg);
+}
+
+.login-quadrado {
+    width: auto;
+    background: transparent;
+    border: 3px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.terms {
+width: 1000px;
+border: 1px solid #ccc;
+padding: 20px;
+margin-bottom: 20px;
+height: 300px;
+overflow-y: scroll;
+}
+
+.form-group {
+margin-bottom: 15px;
+}
